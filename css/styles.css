@@ -1,29 +1,32 @@
 
-p {
-  color: white;
-}
 
-body {
+
+html,body {
   background-color: #070707;
+  color: white;
+  margin: 0;
+  padding: 0;
 }
 
-img {
+#image-1 {
   margin: auto;
-  height: 200px;
-  width: 300px;
-  margin-top: 3rem;
+  height: 250px;
+  width: 250px;
+  margin-top: 50px;
   display: block;
-  max-width: 100%;
- }
+}
 
-@media (min-width: 600px) {
-  img {
-    height: 200px;
-    width: 200px;
-  }
+#header-p {
+  text-align: center;
 
- }
+}
 
-#title {
+  #title {
+  color: white;
+  text-align: center;
+
+}
+
+p {
   color: white;
 }
