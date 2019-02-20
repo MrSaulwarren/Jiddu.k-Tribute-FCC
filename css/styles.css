@@ -1,6 +1,4 @@
 
-
-
 html,body {
   background-color: #070707;
   color: white;
@@ -8,25 +6,45 @@ html,body {
   padding: 0;
 }
 
+img {
+ margin: auto;
+ width: 300px;
+ margin-top: 30px;
+ max-width: 100%;
+ display: block;
+}
+
 #image-1 {
-  margin: auto;
-  height: 250px;
-  width: 250px;
-  margin-top: 50px;
-  display: block;
+ height: 200px;
+ width: 200px;
 }
 
 #header-p {
   text-align: center;
-
+  font-size: 1.04rem;
+  padding: 0;
+  margin: 0;
 }
 
   #title {
-  color: white;
   text-align: center;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.image-left {
+  margin: 0;
+  margin: 30px auto;
 
 }
 
-p {
-  color: white;
+.image-right {
+ margin: auto;
+ padding: 0;
+}
+
+h2, ul, #tribute-info,
+p, .footer, li {
+text-align: center;
+display: block;
 }
