@@ -1,50 +1,114 @@
+/*
+self coded, taunt and leant
+except for Blockquote code.
+*/
 
-html,body {
-  background-color: #070707;
-  color: white;
-  margin: 0;
-  padding: 0;
+html,
+body {
+background-color: #070707;
+color: white;
+font-family: sans-serif, Helvetica, monospace;
+margin: 0;
+padding: 0;
+max-width: 100%;
+}
+
+h2{
+text-align: center
+}
+
+blockquote, ul,
+li, q{
+text-align: center;
+display: block;
+padding:0;
+margin:0 auto;
+}
+
+figure{
+margin:0;
+padding:0;
+}
+
+p{
+margin:0;
+width:50%;
+text-align: justify;
+}
+
+ul{
+list-style-type: none;
 }
 
 img {
- margin: auto;
- width: 300px;
- margin-top: 30px;
- max-width: 100%;
- display: block;
+margin: auto;
+width: 300px;
+margin-top: 30px;
+max-width: 100%;
+display: block;
 }
 
-#image-1 {
- height: 200px;
- width: 200px;
-}
-
-#header-p {
-  text-align: center;
-  font-size: 1.04rem;
-  padding: 0;
-  margin: 0;
-}
-
-  #title {
-  text-align: center;
-  margin-top: 10px;
-  padding: 0;
+p, .footer,
+.Qgrp3, #footer{
+text-align: center;
 }
 
 .image-left {
-  margin: 0;
-  margin: 30px auto;
-
+display: inline-block;
+margin: 0;
 }
 
 .image-right {
- margin: auto;
- padding: 0;
+margin: 0;
 }
 
-h2, ul, #tribute-info,
-p, .footer, li {
-text-align: center;
+.Qgrp2{
+display: inline;
+}
+
+.footer{
+padding: 5px 0;
+width:60%;
+}
+
+#tribute-info, p{
 display: block;
+margin: 5px auto;
+padding: 5px 0;
+text-align: justify;
+}
+
+
+#img-caption{
+width: 29%;
+text-align: justify
+}
+
+#main{
+margin: 0 auto;
+}
+
+#image-1 {
+height: 200px;
+width: 200px;
+}
+
+#header-p {
+padding: 0;
+text-align: center;
+}
+
+#title {
+margin-top: 10px;
+padding: 0;
+text-align: center;
+}
+
+#image{
+display:inline;
+
+margin:0;
+}
+
+#img-div{
 }
