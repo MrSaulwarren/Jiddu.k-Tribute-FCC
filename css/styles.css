@@ -1,6 +1,5 @@
 /*
-self coded, taunt and leant
-except for Blockquote code.
+id's in place for freecodecamp criteria:
 */
 
 html,
@@ -10,105 +9,183 @@ color: white;
 font-family: sans-serif, Helvetica, monospace;
 margin: 0;
 padding: 0;
-max-width: 100%;
+
 }
 
+/* Change px's to rems/ems at some point */
 h2{
-text-align: center
+margin: 0.20em 0 0;
+display: inline;
+width: 49%;
 }
 
-blockquote, ul,
-li, q{
-text-align: center;
-display: block;
-padding:0;
-margin:0 auto;
-}
+blockquote
+
+ul
+
+li
+
+q
+
+p{
+  font-family: 'Berkshire Swash','Pacifico', cursive;
+  width:438px}
 
 figure{
 margin:0;
 padding:0;
 }
 
-p{
-margin:0;
-width:50%;
-text-align: justify;
-}
-
 ul{
 list-style-type: none;
+padding:5px;
 }
 
-img {
-margin: auto;
-width: 300px;
-margin-top: 30px;
-max-width: 100%;
-display: block;
+figcaption{
+width: 332px;
+margin: 10px 0;
 }
 
-p, .footer,
-.Qgrp3, #footer{
-text-align: center;
+.tribute-p{
+display: flex;
+margin: 0 10px 0 10px
+}
+
+.container-group1{
+  height: 461px;
+background-color: #212121;
+}
+
+.container-group2{
+clear:left;
 }
 
 .image-left {
-display: inline-block;
+float: left;
 margin: 0;
 }
 
 .image-right {
 margin: 0;
+width: 321px;
+height: 461px;
+float: right;
+}
+
+.Qgrp1{
+text-align: center;
+display:flex;
+position: relative;
+top: 91px;
 }
 
 .Qgrp2{
-display: inline;
+display: flex;
+position: relative;
+top: 20px;
 }
 
-.footer{
+.footer-p{
 padding: 5px 0;
-width:60%;
-}
-
-#tribute-info, p{
+margin: 25px auto;
+width: 83%;
 display: block;
-margin: 5px auto;
-padding: 5px 0;
-text-align: justify;
 }
 
+.footer-div{
+text-align: center;
+background-color: #212121;
+}
 
+.tribute-info{
+text-align: justify;
+position: relative;
+top: 30px;
+}
+
+.brief{
+height: 274px;
+text-align:justify;
+background-color: #212121;
+}
+
+.image-1 {
+height: 200px;
+width: 222px;
+margin: auto;
+margin-top: 30px;
+max-width: 100%;
+display: block;
+}
+
+.bottomQuotes{
+text-align: center;
+}
+
+/*change ID's for selectors
+at some point*/
 #img-caption{
-width: 29%;
-text-align: justify
+width: 34%;
+text-align: justify;
 }
 
 #main{
 margin: 0 auto;
 }
 
-#image-1 {
-height: 200px;
-width: 200px;
-}
-
 #header-p {
 padding: 0;
 text-align: center;
+display: block;
+margin: 0 auto 30px;
+width: 245px;
 }
 
 #title {
-margin-top: 10px;
+margin: 10px auto 8px;
 padding: 0;
 text-align: center;
 }
 
 #image{
-display:inline;
-
-margin:0;
+float: left;
+margin: 0 50px 0 0;
 }
 
 #img-div{
+}
+
+@media screen and (max-width:701px){
+.containter-group2{
+  clear:left
+  }
+.image-left{
+  margin: 0 auto;
+  display: block;
+  float: none;
+  }
+.image-right{
+  margin: 0 auto;
+  display: block;
+  float: none;
+}
+#image{
+  margin: 0 auto;
+  display: block;
+  float: none;
+}
+
+
+all position: relative positions need to removed
+h2{
+  display: inline;
+  margin: 0 auto;
+  text-align: center
+}
+.img-caption{
+  margin: 0 auto;
+	width: 91%;
+  text-align: justify;
+  }
+
 }
