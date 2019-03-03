@@ -9,7 +9,6 @@ color: white;
 font-family: sans-serif, Helvetica, monospace;
 margin: 0;
 padding: 0;
-
 }
 
 /* Change px's to rems/ems at some point */
@@ -18,14 +17,6 @@ margin: 0.20em 0 0;
 display: inline;
 width: 49%;
 }
-
-blockquote
-
-ul
-
-li
-
-q
 
 p{
   font-family: 'Berkshire Swash','Pacifico', cursive;
